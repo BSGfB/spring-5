@@ -2,4 +2,5 @@ rootProject.name = 'rx-web-application'
 include 'rest'
 include 'model'
 include 'service'
+include 'repository'
 

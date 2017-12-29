@@ -1,5 +1,8 @@
 version '1.0-SNAPSHOT'
 
 dependencies {
+    compile project(':model')
+
+    compile group: 'org.springframework.data', name: 'spring-data-jpa', version: '2.0.2.RELEASE'
     compile group: 'org.springframework.data', name: 'spring-data-mongodb', version: '2.0.2.RELEASE'
 }
